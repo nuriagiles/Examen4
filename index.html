@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campionat de Gaming FP Llefià</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header-style">
+        <h1 class="h1-fp">GC FP Llefià</h1>
+        <nav class="menu-style">
+            <ul>
+                <li><a href="#inici">Inici</a></li>
+                <li><a href="#horaris">Horaris</a></li>
+                <li><a href="#inscripcio">Inscripció</a></li>
+                <li><a href="#jocs">Jocs</a></li>
+                <li><a href="#patrocinadors">Patrocinadors</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="inici" class="hero">
+        <h2>CAMPIONAT DE GAMING FP LLEFIÀ</h2>
+        <p>Participa en el torneig de videojocs més prestigiós de l'any, on els millors jugadors del món competiran per la glòria i un premi de 100.000 $.</p>
+        <a href="#inscripcio" class="btn"><button>Inscriu-te ara</button></a>
+    </section>
+
+    <section id="horaris">
+        <h2>Horaris del Torneig</h2>
+        <p>Marca al teu calendari aquests emocionants partits i esdeveniments. Totes les hores estan en EST.</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Data</th>
+                    <th>Hora</th>
+                    <th>Joc</th>
+                    <th>Ronda</th>
+                    <th>Localització</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>July 15, 2025</td>
+                    <td>10:00</td>
+                    <td class="game-name">Valorant</td>
+                    <td>Qualificacions</td>
+                    <td>Main Arena</td>
+                </tr>
+                <tr>
+                    <td>July 15, 2025</td>
+                    <td>2:00</td>
+                    <td class="game-name">League of Legends</td>
+                    <td>Qualificacions</td>
+                    <td>Stage B</td>
+                </tr>
+                <tr>
+                    <td>July 16, 2025</td>
+                    <td>11:00</td>
+                    <td class="game-name">Counter-Strike 2</td>
+                    <td>Qualificacions</td>
+                    <td>Main Arena</td>
+                </tr>
+                <tr>
+                    <td>July 16, 2025</td>
+                    <td>3:00</td>
+                    <td class="game-name">Dota 2</td>
+                    <td>Qualificacions</td>
+                    <td>Stage B</td>
+                </tr>
+                <tr>
+                    <td>July 17, 2025</td>
+                    <td>12:00</td>
+                    <td class="game-name">Valorant</td>
+                    <td>Quarts de Final</td>
+                    <td>Main Arena</td>
+                </tr>
+                <tr>
+                    <td>July 17, 2025</td>
+                    <td>6:00</td>
+                    <td class="game-name">League of Legends</td>
+                    <td>Quarts de Final</td>
+                    <td>Main Arena</td>
+                </tr>
+                <tr>
+                    <td>July 18, 2025</td>
+                    <td>1:00</td>
+                    <td class="game-name">Counter-Strike 2</td>
+                    <td>Semifinals</td>
+                    <td>Main Arena</td>
+                </tr>
+                <tr>
+                    <td>July 18, 2025</td>
+                    <td>5:00</td>
+                    <td class="game-name">Dota 2</td>
+                    <td>Semifinals</td>
+                    <td>Main Arena</td>
+                </tr>
+                <tr>
+                    <td>July 19, 2025</td>
+                    <td>6:00</td>
+                    <td class="game-name">Grand Finals</td>
+                    <td>Finals</td>
+                    <td>Main Arena</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="inscripcio">
+        <h2>Registra't al torneig</h2>
+        <p>Omple el següent formulari per assegurar la teva plaça al Campionat Ultimate Gaming.</p>
+        
+        <div class="form-container">
+            <form>
+                <label for="nom">Nom complet</label>
+                <input type="text" id="nom" placeholder="Nom i cognoms" required>
+    
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Correu electrònic" required>
+    
+                <label for="telefon">Número de telèfon</label>
+                <input type="tel" id="telefon" placeholder="Número de telèfon" required>
+    
+                <label for="joc">Joc</label>
+                <select id="joc" required>
+                    <option value="" disabled selected>Selecciona un joc</option>
+                    <option value="valorant">Valorant</option>
+                    <option value="league">League of Legends</option>
+                    <option value="cs2">Counter-Strike 2</option>
+                    <option value="dota2">Dota 2</option>
+                </select>
+    
+                <label for="equip">Nom de l'equip</label>
+                <input type="text" id="equip" placeholder="Nom de l'equip">
+    
+                <label for="experiencia">Experiència com a equip gamer</label>
+                <input type="text" id="experiencia" placeholder="">
+    
+                <label for="info">Informació addicional</label>
+                <textarea id="info" placeholder=""></textarea>
+    
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="jocs">
+        <h2>Jocs destacats</h2>
+        <div class="game-card">
+            <img src="../Examen4/img/valorant.jpg">
+            <h3>Valorant</h3>
+            <p>Un FPS tàctic de 5 contra 5 basat en personatges, on la precisió amb armes es combina amb habilitats úniques d'agents. Premi: 30.000 $</p>
+            <button>Learn More</button>
+        </div>
+        <div class="game-card2">
+            <img src="../Examen4/img/lol.jpg">
+            <h3>League of Legends</h3>
+            <p>Joc estratègic per equips on dos equips de cinc campions lluiten per destruir la base enemiga. Premi: 30.000 $</p>
+            <button>Learn More</button>
+        </div>
+        <div class="game-card3">
+            <img src="../Examen4/img/counter.jpg">
+            <h3>Counter-Strike 2</h3>
+            <p>El clàssic joc d'acció per equips on contraterrestres s'enfronten a terroristes. Premi: 25.000 $</p>
+            <button>Learn More</button>
+        </div>
+        <div class="game-card4">
+            <img src="../Examen4/img/dota2.jpg">
+            <h3>Dota 2</h3>
+            <p>Joc multijugador d'arena de batalla en línia on dos equips competeixen per destruir l'antic enemic. Premi: 15.000 $</p>
+            <button>Learn More</button>
+        </div>
+    </section>
+    <section class="video-style">
+        <h2>Els millors moments del torneig</h2>
+        <p>Gaudeix dels millors moments de l'última edició del Campionat Ultimate Gaming.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ZK77DEDJAOU?si=ArgZ1L81Oi9xZ-2G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+    <section id="patrocinadors">
+        <h2>Els nostres patrocinadors</h2>
+        <p>El Campionat Ultimate Gaming compta amb el suport d'aquestes fantàstiques marques.</p>
+        <img src="../Examen4/img/hyperx.png" alt="hyperx">
+        <img src="../Examen4/img/hyperx.png" alt="hyperx">
+        <img src="../Examen4/img/hyperx.png" alt="hyperx">
+        <img src="../Examen4/img/hyperx.png" alt="hyperx">
+        <img src="../Examen4/img/hyperx.png" alt="hyperx">
+    </section>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="#inici">Inici</a></li>
+                <li><a href="#horaris">Horaris</a></li>
+                <li><a href="#inscripcio">Inscripció</a></li>
+                <li><a href="#jocs">Jocs</a></li>
+                <li><a href="#patrocinadors">Patrocinadors</a></li>
+                <li><a href="#">Política de Privadesa</a></li>
+                <li><a href="#">Condicions d'ús</a></li>
+            </ul>
+        </nav>
+        <p>© 2025 Campionat Ultimate Gaming. Tots els drets reservats.</p>
+    </footer>
+</body>
+</html>

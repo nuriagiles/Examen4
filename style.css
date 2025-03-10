@@ -1,0 +1,477 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0e1726;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.header-style {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url"(../Examen4/img/dota2.jpg)";
+    padding: 20px 50px;
+}
+
+.h1-fp {
+    font-size: 24px;
+    color: #ff4c4c;
+    font-weight: bold;
+}
+
+.menu-style ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.menu-style ul li {
+    margin: 0 15px;
+}
+
+.menu-style ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.menu-style ul li a:hover {
+    color: #ff4c4c;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: url('https://www.transparenttextures.com/patterns/black-linen.png');
+    background-size: cover;
+}
+
+.hero h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto 20px;
+}
+
+.hero .btn button {
+    background-color: #ff4c4c;
+    color: #ffffff;
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.hero .btn button:hover {
+    background-color: #d43f3f;
+}
+
+#horaris {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #0e1726; 
+}
+
+#horaris h2 {
+    color: #ff4c4c; 
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#horaris p {
+    font-size: 16px;
+    color: #b0b3b8; 
+    margin-bottom: 30px;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #111827; 
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+thead {
+    background-color: #ff4c4c; /* Rojo brillante */
+}
+
+thead th {
+    color: white;
+    font-size: 16px;
+    padding: 15px;
+    text-align: left; 
+}
+
+
+tbody tr {
+    background-color: #182235; 
+    border-bottom: 1px solid #222f3e; 
+}
+
+tbody td {
+    color: #b0b3b8; 
+    font-size: 14px;
+    padding: 15px;
+    text-align: left; 
+}
+
+
+.game-name {
+    font-weight: bold;
+    color: #ff4c4c;
+}
+
+
+tbody tr:last-child .game-name {
+    color: #ff4c4c;
+    font-weight: bold;
+}
+
+
+@media (max-width: 768px) {
+    table {
+        width: 95%;
+    }
+
+    thead th {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    tbody td {
+        font-size: 12px;
+        padding: 10px;
+    }
+}
+
+
+#inscripcio {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #0e1726;
+}
+
+#inscripcio h2 {
+    color: #ff4c4c;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#inscripcio p {
+    font-size: 16px;
+    color: #b0b3b8;
+    margin-bottom: 30px;
+}
+
+
+form {
+    width: 40%;
+    margin: 0 auto;
+    background-color: #111827;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+form label {
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+    color: #b0b3b8;
+    margin: 10px 0 5px;
+}
+
+
+form input, form select, form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #1e293b;
+    border-radius: 5px;
+    background-color: #1e293b;
+    color: white;
+    font-size: 14px;
+}
+
+
+form textarea {
+    height: 100px;
+    resize: none;
+}
+
+
+form button {
+    background-color: #ff4c4c;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background-color: #d43f3f;
+}
+
+
+@media (max-width: 768px) {
+    form {
+        width: 80%;
+    }
+}
+
+#jocs {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #0e1726;
+}
+
+#jocs h2 {
+    color: #ff4c4c;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#jocs p {
+    font-size: 16px;
+    color: #b0b3b8;
+    margin-bottom: 30px;
+}
+
+
+.games-container {
+    display: flex;
+    justify-content: center;  
+    align-items: flex-start; 
+    gap: 20px; 
+    flex-wrap: wrap;  
+    max-width: 900px;
+    margin: 0 auto; 
+}
+
+
+.game-card, .game-card2, .game-card3 {
+    width: 280px;
+    background-color: #111827;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.game-card img, .game-card2 img, .game-card3 img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+
+.game-card h3, .game-card2 h3, .game-card3 h3 {
+    color: #ff4c4c;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 15px 0 10px;
+}
+
+.game-card p, .game-card2 p, .game-card3 p {
+    color: #b0b3b8;
+    font-size: 14px;
+    padding: 0 15px;
+    margin-bottom: 15px;
+}
+
+
+.game-card button, .game-card2 button, .game-card3 button {
+    background-color: #ff4c4c;
+    color: white;
+    padding: 10px 15px;
+    font-size: 14px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-bottom: 15px;
+}
+
+.game-card button:hover, .game-card2 button:hover, .game-card3 button:hover {
+    background-color: #d43f3f;
+}
+
+
+@media (max-width: 900px) {
+    .games-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .game-card, .game-card2, .game-card3 {
+        width: 90%;
+    }
+}
+
+.video-style {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #0e1726;
+}
+
+.video-style h2 {
+    color: #ff4c4c;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.video-style p {
+    font-size: 16px;
+    color: #b0b3b8;
+    margin-bottom: 20px;
+}
+
+
+.video-style iframe {
+    width: 560px;
+    height: 315px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+@media (max-width: 768px) {
+    .video-style iframe {
+        width: 90%;
+        height: 200px;
+    }
+}
+
+#patrocinadors {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #0e1726;
+}
+
+#patrocinadors h2 {
+    color: #ff4c4c;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#patrocinadors p {
+    font-size: 16px;
+    color: #b0b3b8;
+    margin-bottom: 20px;
+}
+
+#patrocinadors img {
+    width: 120px;
+    height: auto;
+    margin: 10px;
+    filter: grayscale(30%); 
+    transition: filter 0.3s ease;
+}
+
+
+#patrocinadors img:hover {
+    filter: grayscale(0%);
+}
+
+
+@media (max-width: 768px) {
+    #patrocinadors img {
+        width: 90px;
+    }
+}
+
+footer {
+    background-color: #0e1726;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+footer nav ul li {
+    display: inline;
+}
+
+footer nav ul li a {
+    color: #b0b3b8;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+footer nav ul li a:hover {
+    color: #ff4c4c;
+}
+
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.footer-icons a {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #1e293b;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.footer-icons a:hover {
+    background-color: #ff4c4c;
+}
+
+
+footer p {
+    color: #b0b3b8;
+    font-size: 12px;
+    margin-top: 10px;
+}
